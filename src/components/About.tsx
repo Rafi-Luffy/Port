@@ -44,7 +44,7 @@ const About = () => {
               Currently interning at <span className="text-blue-400 font-medium">NPTEL (IIT Ropar)</span>, where I'm developing core AI engine components for real-time poll generation from meeting transcripts using Whisper and LLMs. I've architected modular monorepo systems with Turborepo and built sophisticated analytics dashboards.
             </p>
             <p>
-              As a <span className="text-emerald-400 font-medium">Class Representative</span> and <span className="text-purple-400 font-medium">ACM Draft Head</span>, I've honed my leadership skills while maintaining an impressive <span className="text-yellow-400 font-medium">8.92 CGPA</span>. I'm also the creator of <span className="text-emerald-400 font-medium">Shortcut Sensei</span> and several other innovative platforms.
+              As a <span className="text-emerald-400 font-medium">Class Representative</span> and <span className="text-purple-400 font-medium">ACM Draft Head</span>, I've honed my leadership skills while maintaining an impressive <span className="text-yellow-400 font-medium">8.92 CGPA</span>. I\'m also the creator of <span className="text-emerald-400 font-medium">Shortcut Sensei</span> and several other innovative platforms.
             </p>
             <p>
               I specialize in building AI-powered applications with modern tech stacks, combining strong technical skills with business acumen and cross-cultural communication abilities. My fluency in Japanese language and business culture enables me to work effectively in global environments.
