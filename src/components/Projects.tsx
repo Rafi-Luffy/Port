@@ -23,6 +23,21 @@ const Projects = () => {
       }
     },
     {
+      title: 'AI Poll Generation System (IIT Ropar)',
+      description: 'Real-time poll generation from meeting transcripts using Whisper AI and LLMs. Built with modular monorepo architecture and comprehensive analytics dashboard.',
+      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
+      tech: ['MERN Stack', 'Whisper AI', 'LLMs', 'Turborepo', 'Cron Jobs'],
+      features: [
+        'Real-time transcript processing with Whisper AI',
+        'Intelligent poll generation using custom LLMs',
+        'Modular monorepo architecture with Turborepo',
+        'Analytics dashboard for performance insights'
+      ],
+      links: {
+        github: 'https://github.com/Rafi-Luffy'
+      }
+    },
+    {
       title: 'Shortcut Sensei',
       description: 'A unique platform to help people master productivity shortcuts through gamified learning, combining smart design, quizzes, and community interaction.',
       image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -50,21 +65,6 @@ const Projects = () => {
       ],
       links: {
         github: 'https://github.com/Rafi-Luffy/Memo-no-Sekai'
-      }
-    },
-    {
-      title: 'Whosaid.ai',
-      description: 'An engaging game that challenges users to detect whether content is written by AI or humans, built to raise awareness about AI-generated content.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tech: ['React', 'OpenAI API', 'Machine Learning', 'Firebase'],
-      features: [
-        'Real-time AI vs Human content detection',
-        'Progressive difficulty levels',
-        'Educational insights and statistics',
-        'Community scoring and challenges'
-      ],
-      links: {
-        github: 'https://github.com/Rafi-Luffy'
       }
     }
   ];

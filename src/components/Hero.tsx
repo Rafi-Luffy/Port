@@ -40,7 +40,7 @@ const Hero = () => {
           >
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 p-1">
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="/rafi_pic.png"
                 alt="S.B.M. Rafi"
                 className="w-full h-full rounded-full object-cover"
               />

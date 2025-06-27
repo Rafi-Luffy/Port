@@ -118,7 +118,10 @@ const Contact = () => {
                 🚀 Currently interning at IIT Ropar working on AI-powered educational tools
               </p>
               <p className="text-gray-300 mt-2">
-                💡 Open to full-time opportunities in AI, Cloud Engineering, and Full-Stack Development
+                💡 Open to full-time opportunities in AI/ML Engineering, Cloud Architecture, and Full-Stack Development
+              </p>
+              <p className="text-gray-300 mt-2">
+                🎓 Maintaining 8.92 CGPA while actively building innovative projects
               </p>
             </motion.div>
           </motion.div>
