@@ -5,10 +5,10 @@ import { ChevronDown, Download, Mail } from 'lucide-react';
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const roles = [
+    'AI/ML Engineer',
+    'Full-Stack Developer', 
     'Innovation Architect',
-    'AI Enthusiast', 
-    'Full-Stack Developer',
-    'Problem Solver'
+    'Technical Leader'
   ];
 
   useEffect(() => {
@@ -84,12 +84,30 @@ const Hero = () => {
               transition={{ delay: 0.9 }}
               className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
             >
-              A passionate Computer Science student and relentless builder focused on{' '}
-              <span className="text-blue-400 font-medium">innovation</span>,{' '}
-              <span className="text-emerald-400 font-medium">AI</span>, and{' '}
-              <span className="text-purple-400 font-medium">full-stack development</span>.
-              I thrive at the intersection of technology, design, and real-world impact.
+              A passionate Computer Science student with <span className="text-yellow-400 font-medium">8.92 CGPA</span>, 
+              currently interning at <span className="text-blue-400 font-medium">IIT Ropar</span>. 
+              I specialize in <span className="text-emerald-400 font-medium">AI/ML</span>, 
+              <span className="text-purple-400 font-medium"> full-stack development</span>, and 
+              <span className="text-blue-400 font-medium"> technical leadership</span>.
             </motion.p>
+
+            {/* Key Stats */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0 }}
+              className="flex flex-wrap justify-center gap-6 text-sm"
+            >
+              <div className="bg-slate-800/60 px-4 py-2 rounded-full border border-slate-700">
+                <span className="text-blue-400 font-semibold">IIT Ropar</span> Intern
+              </div>
+              <div className="bg-slate-800/60 px-4 py-2 rounded-full border border-slate-700">
+                <span className="text-emerald-400 font-semibold">8.92</span> CGPA
+              </div>
+              <div className="bg-slate-800/60 px-4 py-2 rounded-full border border-slate-700">
+                <span className="text-purple-400 font-semibold">9+</span> Certifications
+              </div>
+            </motion.div>
           </div>
 
           <motion.div
